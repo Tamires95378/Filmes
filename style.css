@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 217, 217);
+    color: #333;
+}
+
+.topo-imagem {
+    width: 100%;
+    height: 600px;
+    margin: -3.500px auto;
+    /* Centraliza a imagem horizontalmente */
+  }
+  
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(228, 217, 217);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container h1 {
+    color: rgb(0,0,0); 
+    background-color:rgb(228, 217, 217); 
+    display: inline-block; 
+    padding: 10px; 
+    margin: 0; 
+ }
+
+.menu {
+    background-color: rgb(45, 45, 44);
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+  
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.menu li a {
+    color: rgb(228, 217, 217);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent;
+ }
+  
+.menu li a:hover,
+.menu li a.active {
+    background-color: rgb(202, 18, 26, 0.7);
+    border-color: #fff;
+}
+  
+.info-container {
+    margin-top: 20px;
+}
+  
+.adicionados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.add {
+    font-size: 25px;
+    color: rgb(0,0,0);
+}
+
+img {
+    height: 450px;
+    width: 380px;    
+    object-fit: cover;
+    border-radius: 0px;
+    border: 2px solid rgb(0,0,0);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.img-pirate {
+    height: 90%;
+    width: 90%;
+}
+
+.img-american {
+    height: 90%;
+    width: 90%;
+}
+
+.img-toy {
+    height: 90%;
+    width: 90%;
+}
+
+.img-lord {
+    height: 90%;
+    width: 90%;
+}
+
+.img-fast {
+    height: 90%;
+    width: 90%;
+}
+
+
+.img-expendables {
+    height: 90%;
+    width: 90%;
+}
+
+.img-127 {
+    height: 90%;
+    width: 90%;
+}
+
+.img-red {
+    height: 90%;
+    width: 90%;
+}
+
+.img-meet {
+    height: 90%;
+    width: 90%;
+}
+
+.img-top {
+    height: 90%;
+    width: 90%;
+}
+
+.img-harry {
+    height: 90%;
+    width: 90%;
+}
+
+.img-platoon {
+    height: 90%;
+    width: 90%;
+}
+
+
+
+.img-austin {
+    height: 90%;
+    width: 90%;
+}
+
+
+.img-snitch {
+    height: 90%;
+    width: 90%;
+}
+
+.img-bambi {
+    height: 90%;
+    width: 90%;
+}
+
+.img-matrix {
+    height: 90%;
+    width: 90%;
+}
+
+.img-brokeback {
+    height: 90%;
+    width: 90%;
+}
+
+
+footer {
+
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(45, 45, 44);
+    color: #fff;
+}

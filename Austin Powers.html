@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Powers</title>
+</head>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 217, 217);
+    color: #333;
+}
+
+.container {
+    max-width: 1355px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center, justify;
+    display: flex;
+    align-items: center;
+}
+.container h1 {
+    text-align: center, justify;
+    margin-top: -400px;
+    white-space: nowrap;
+}
+
+
+.menu {
+    background-color: rgb(45, 45, 44);
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+  
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent;
+ }
+  
+.menu li a:hover,
+.menu li a.active {
+    background-color: rgb(45, 45, 44);
+    border-color: #fff;
+}
+
+button {
+        margin-top: 390px;
+        padding: 10px 20px;
+        background-color: 228, 217, 217;
+        color: #0056b3;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 20px;
+}
+
+button:hover {
+        background-color: rgb(0,0,0);
+        border-radius: 1px;
+}
+
+.retorne {
+        margin-top: 390px;
+        padding: 10px 20px;
+        background-color: 228, 217, 217;
+        color: #0056b3;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 20px;
+}
+
+.retorne:hover {
+        background-color: rgb(0,0,0);
+        border-radius: 1px;
+}
+
+img {
+    height: 530px;
+    width: 640px;    
+    object-fit: cover;
+    border-radius: 0px;
+    border: 4.9px solid rgb(0,0,0);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sinopse {
+    text-align: justify;
+    height: 300px;
+    width: -140px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 0px;
+    border: 0px solid rgb(0, 0, 0);
+    margin-left: -1000px;
+}
+
+
+footer {
+
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(45, 45, 44);
+    color: #fff;
+}
+
+
+</style>
+
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="#" onclick="showInfo('filmes')">Filmes</a></li>
+        </ul>
+      </nav>
+
+    <div class="container">
+        
+        
+        <img src="Austin Powers International Man of Mystery.jpeg" alt="Austin Powers" onclick="showInfo('Austin Powers')">
+        <button onclick="showInfo('assistir')">Assistir</button>
+        <h1>AUSTIN POWERS: INTERNATIONAL MAN OF MYSTERY </h1>
+
+        <div class="retorne">
+        <a href="index.html">Voltar</a>
+        </div>
+
+
+        <div class="sinopse">
+        <p><h2>Sinopse:</h2></p>
+        <p>Um playboy de nível internacional e agente especial nas horas vagas, Austin Powers é descongelado depois de 30 anos para combinar sua inteligência com a do Dr. Evil. Com habilidades de espião antiquadas e maneirismos dos anos 60, Austin precisa enfrentar um vilão como nenhum outro e dar um jeito em sua sexualidade fora de moda.</p>
+     </div>
+    </div>
+    </div>
+
+    <footer> ©Trabalho A3 - Grupo 07© </footer>
+</body>
+</html>
